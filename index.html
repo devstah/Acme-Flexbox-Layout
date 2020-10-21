@@ -1,0 +1,102 @@
+<!-- Phase One build the nav bar
+Phase Two add the form
+Phase Three add the cards
+Phase Four make it mobile -->
+<html>
+  <head>
+    <link rel = "stylesheet" href = "styles.css"> </link>
+  </head>
+
+
+  <header>
+    <nav>
+      <div id = "title"> Acme Layout </div>
+      <div class = "nav-item">Users</div>
+      <div class = "nav-item">Departments</div>
+      <div class = "nav-item">Contact</div>
+    </nav>
+
+    <h1> Users </h1>
+  </header>
+
+
+  <form>
+      <table id = "create_user">
+        <tr id = "title-row"><th> Create A User</th></tr>
+        <tr> <td > <div class = "table-labels">
+        <label>First Name</label>
+        <input type = "text", placeholder = "Jane"> </input>
+        </div></td> </tr>
+
+        <tr> <td > <div class = "table-labels">
+          <label> Last Name</label>
+          <input type = "text", placeholder = "Doe"> </input>
+        </div></td> </tr>
+
+        <tr> <td > <div class = "table-dept-label">
+          <label>Department</label>
+            <select name = "choices" id = "dropdown">
+              <option>-- None --</option>
+              <option> Economics </option>
+            </div> </td> </tr>
+
+            <tr>
+              <td colspan="2">
+               <center>
+              <button id = "clear"> Clear </button>
+              <button id = "save">Save</button>
+            </center>
+            </td>
+          </tr>
+      </table>
+    </form>
+
+
+    <div id = "top_table_row">
+    <table id = "table1">
+      <th id = "table1-heading"> User A </th>
+      <tr> <td id = "sampletext1"> Some text for the user</td></tr>
+    </table>
+
+      <table id = "table2">
+        <th id = "table2-heading"> User A  </th>
+        <tr> <td id = "sampletext2">
+          <br>Some text for the user.Some text for the user.</br>
+          <br> Some text for the user.Some text for the user. </br>
+          <br> Some text for the user.Some text for the user. </br>
+        </td></tr>
+      </table>
+
+        <table id = "table3">
+          <th id = "table3-heading"> User A </th>
+          <tr> <td id = "sampletext3"> Some text for the user</td></tr>
+        </table>
+      </div>
+
+      <div id = "middle_table_row">
+        <table id = "table4">
+          <th id = table4-heading> User A </th>
+          <tr> <td id = "sampletext4"> Some text for the user</td></tr>
+        </table>
+
+          <table id = "table5">
+            <th id = table5-heading> User A </th>
+            <tr> <td id = "sampletext5"> Some text for the user</td></tr>
+          </table>
+
+            <table id = "table6">
+              <th id = table6-heading> User A </th>
+              <tr> <td id = "sampletext6"> Some text for the user</td></tr>
+            </table>
+      </div>
+
+
+          <div id = "bottom_table_row">
+            <table id = "table7">
+              <th id = "table7-heading"> User A  </th>
+              <tr> <td id = "sampletext7"> Some text for the user</td></tr>
+            </table>
+         </div>
+
+
+</html>
